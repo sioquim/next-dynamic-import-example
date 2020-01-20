@@ -23,6 +23,7 @@ function Home() {
 
           return (
             <>
+              <h2>Click the button to activate a region.</h2>
               <button type="button" onClick={() => changeRegion("all")}>
                 All Regions
               </button>
@@ -32,7 +33,9 @@ function Home() {
               <button type="button" onClick={() => changeRegion("au")}>
                 AU Region
               </button>
-              <p>Current region is {region}</p>
+              <p>
+                Current region is <strong>{region}</strong>
+              </p>
               {region === "nz" && <CowsayHi message="I'm from NZ" />}
               {region === "au" && <CowsayHi message="I'm from AU" />}
             </>
