@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "next-dynamic-import-example",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
@@ -7,9 +7,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "cowsay-browser": "1.1.8",
     "next": "latest",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "license": "ISC"
 }
